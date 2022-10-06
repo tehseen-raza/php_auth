@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", sans-serif;
+}
+
+.h2 {
+  font-size: 32px;
+  line-height: 38px;
+  color: #2c2c2c;
+}
+
+.marginTop-30 {
+  margin-top: 30px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  background: #e7e7e7;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 19px 19px 50px #b3b3b3, -19px -19px 50px #ffffff;
+  padding: 30px 20px;
+}
+.wrapper .h2 {
+  text-align: center;
+}
+
+.signupWrapper {
+  height: 550px;
+}
+
+.input__Wrapper {
+  flex-direction: column;
+}
+
+form {
+  margin-top: 50px;
+}
+
+input {
+  padding: 20px 15px;
+  border-radius: 10px;
+  border: none;
+  border-color: #d4d4d4;
+  font-size: 1rem;
+  line-height: 33px;
+  transition: border 0.3s;
+  border: 1px solid transparent;
+}
+input::-moz-placeholder {
+  color: #8e8e8e;
+}
+input:-ms-input-placeholder {
+  color: #8e8e8e;
+}
+input::placeholder {
+  color: #8e8e8e;
+}
+input:focus {
+  border: none;
+  outline: none;
+  border: 1px solid #2e3192;
+  box-shadow: 0 20px 55px rgba(46, 49, 146, 0.0862745098);
+}
+
+.Btn {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 22px 30px;
+  color: #ffffff;
+  background-color: #2e3192;
+  cursor: pointer;
+  width: calc(100% - 200px);
+}
+
+.createAcoount p {
+  text-align: center;
+}
+.createAcoount a {
+  color: #2e3192;
+  font-weight: 700;
+  line-height: 22px;
+}/*# sourceMappingURL=style.css.map */
