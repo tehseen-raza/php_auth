@@ -17,15 +17,15 @@
             <form action="login-signup.php" method="POST">
                 <div class="input__Wrapper d-flex">
                     <label hidden for="userName">Username:</label>
-                    <input type="text" name="username" id="userName" placeholder="Username">
+                    <input type="text" required name="username" id="userName" placeholder="Username">
                 </div>
                 <div style="margin-top: 20px;" class="input__Wrapper d-flex">
                     <label hidden for="email">Email:</label>
-                    <input type="text" name="email" id="email" placeholder="Email Address">
+                    <input type="text" required name="email" id="email" placeholder="Email Address">
                 </div>
                 <div style="margin-top: 20px;" class="input__Wrapper d-flex">
                     <label hidden for="password">Password:</label>
-                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="password" required name="password" id="password" placeholder="Password">
                 </div>
                 <div class="flex marginTop-30">
                     <button name="register" class="loginBtn Btn" type="submit">Register</button>
